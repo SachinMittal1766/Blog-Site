@@ -1,0 +1,506 @@
+* {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 2px solid blue; */
+}
+body{
+  height: 110%;
+  width: 100%;
+  background-image: url(img/Bg2.jpg);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Landing Page  */
+.container {
+  height: 70rem;
+  width: 100%;
+  background-image: url(img/Bg1.png);
+  background-position: center;
+  background-size: cover;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Navigation Bar */
+.navbar {
+  width: 100%;
+  height: 10rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+  margin: auto;
+}
+
+#navbar ul {
+  display: flex;
+  margin: auto;
+}
+
+#navbar ul li {
+  color: black;
+  list-style: none;
+  display: inline-block;
+  margin: 0rem 2rem;
+}
+
+#navbar ul li a {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 800;
+  padding: 0.5rem 2.5rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+#navbar ul li a:hover {
+  background-color: white;
+  color: #771d00;
+  color: white;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.Title {
+  text-align: center;
+  font-size: 18.8rem;
+  font-family: "Oregano", cursive;
+  margin-top: 8rem;
+}
+
+.Subtitle {
+  text-align: center;
+  font-size: 4.8rem;
+}
+
+.line {
+  height: 1rem;
+  width: 50%;
+  margin-left: 25%;
+}
+
+/* Blogs */
+.Blog-Title , .about-Title , .contact-Title {
+  text-align: center;
+  font-size: 7.2rem;
+  font-family: "Oregano", cursive;
+  padding-top: 5rem;
+}
+.Blog-list , .about-content , .contact-content{
+  height: 110%;
+  width: 100%;
+  background-image: url(img/Bg2.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.Blog-list{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.Blog {
+  display: flex;
+  flex-direction: row;
+  width: 70rem;
+  /* width: 40rem; */
+  height: 25rem;
+  background-color: #ffffff;
+  margin: 2rem auto;
+  /* border-radius: 1rem; */
+}
+
+.left img{
+    height: 20rem;
+    width: 20rem;
+    /* padding: 0.5rem; */
+}
+
+.date{
+    font-size: 3.2rem;
+    text-align: center;
+    font-weight: 800;
+    color: #999999;
+    margin-top: 1rem;
+}
+
+.heading{
+    font-size: 2.8rem;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+.brief{
+    font-size: 1.8rem;
+    padding: 1.5rem 4rem;
+}
+.right .read{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.8rem;
+   margin-left: 22rem;
+   padding-left: 0.8rem;
+   width: 10rem;
+   height: 2.2rem;
+   border-radius: 0.5rem;
+   color: #000;
+   background-color: #63cdf5;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    background-color: #ececec;
+}
+
+.view{
+   font-size: 2.0rem;
+   margin-left: 1.5rem;
+   padding-top: 1rem;
+}
+
+.social{
+    margin-top: 0rem;
+    margin-left: 30rem;
+    text-align: center;
+    font-size: 3.2rem;
+}
+.insta, .linkedin{
+  padding: 0rem 1rem;
+}
+.line1{
+  border: 1px solid #f9b44e;
+  width: 60%;
+  margin-left: 20%;
+  /* fill: red; */
+}
+
+.data{
+  display: flex;
+  flex-direction: row;
+}
+
+.data img{
+  height: 40rem;
+  width: 40rem;
+  padding-top: 2rem;
+}
+.data-content{
+  font-size: 3.2rem;
+  margin-top: 5.2rem;
+  padding-top: 3rem;
+  padding-left: 5rem;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.contact-social{
+  font-size: 7.2rem;
+  align-items: center;
+  /* border: 2px solid black; */
+  display: inline-block;
+  margin-left: 40%;
+}
+
+.insta , .linkedin , .Medium{
+  padding: 2rem;
+}
+
+.copyright p{
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+/* *************************************************************************************************** */
+@media screen and (max-width: 1200px){
+  .container {
+    height: 80rem;
+  }  
+}
+
+@media screen and (max-width: 1000px){
+  .data-content{
+    font-size: 2.8rem;
+  margin-top: 0rem;
+  padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 890px){
+  .Title{
+  font-size: 14.8rem;
+  }
+}
+
+@media screen and (max-width: 850px){
+  .data img{
+    height: 30rem;
+    width: 30rem;
+  }
+  .data-content{
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 770px){
+  .Blog{
+    width: 60rem;
+    height: 25rem;
+  }
+  .heading{
+    font-size: 2.0rem;
+    padding-top: 0.5rem;
+}
+.brief{
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+}
+.right .read{
+    font-size: 1.6rem;
+   margin-left: 15rem;
+   padding-left: 1rem;
+   margin-bottom: 3rem;
+}
+
+.icons{
+    margin-top: 0.5rem;
+}
+
+.view{
+   font-size: 1.6rem;
+   margin-left: 1.5rem;
+   padding-top: 1rem;
+}
+
+.social{
+    margin-left: 20rem;
+}
+.data-content{
+  font-size: 1.8rem;
+}
+}
+
+@media screen and (max-width: 720px){
+  .Title{
+  font-size: 10.8rem;
+  }
+}
+
+@media screen and (max-width: 670px){
+  #navbar ul li {
+    margin: 0rem 1rem;
+  }
+  
+  #navbar ul li a {
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+  }
+  
+  .Blog {
+
+    flex-direction: column;
+    width: 30rem;
+    height: 65rem;
+  }
+  
+  .left img{
+      height: 30rem;
+      width: 30rem;
+      /* padding: 0.5rem; */
+  }
+  
+  .date{
+      font-size: 2.8rem;
+      margin-top: 0.5rem;
+  }
+  
+  .heading{
+      font-size: 2.4rem;
+      /* text-align: center; */
+      font-weight: 600;
+      /* padding-top: 1rem; */
+  }
+  .brief{
+      font-size: 1.6rem;
+      padding: 1.5rem 1.5rem;
+  }
+  .right .read{
+      /* display: inline-block; */
+      /* text-decoration: none; */
+      font-size: 1.6rem;
+     margin-left: 10rem;
+     padding-left: 1rem;
+     /* width: 10rem; */
+     /* height: 2.2rem; */
+     /* border-radius: 0.5rem; */
+     /* color: #000; */
+     /* background-color: #63cdf5; */
+  }
+  
+  .icons{
+      display: flex;
+      flex-direction: row;
+      margin-top: 0.1rem;
+      background-color: #ececec;
+  }
+  
+  .view{
+     font-size: 1.6rem;
+     margin-left: 1.5rem;
+     padding-top: 1rem;
+  }
+  
+  .social{
+      margin-top: 0rem;
+      margin-left: 20rem;
+      text-align: center;
+      font-size: 3.2rem;
+  }
+  .insta, .linkedin{
+    padding: 0rem 1rem;
+  }
+}
+
+@media screen and (max-width: 500px){
+  #navbar ul li {
+    margin: 0rem 0.5rem;
+  }
+  
+  #navbar ul li a {
+    font-size: 1.6rem;
+    padding: 0.5rem 1.5rem;
+  }
+  .Title{
+    font-size: 9.8rem;
+  }
+  .data{
+    /* display: flex; */
+    flex-direction: column;
+  }
+  
+  .data img{
+    height: 30rem;
+    width: 30rem;
+    /* padding-top: 2rem; */
+    /* align-items: center; */
+    margin-left: auto;
+  margin-right: auto;
+  }
+  .data-content{
+    font-size: 2.4rem;
+    margin-top: 1.5rem;
+    /* padding-top: 0.1rem; */
+    padding-left: 0.2rem;
+    font-weight: 500;
+    /* text-align: justify; */
+    margin-bottom: 1rem;
+  }
+  .contact-social{
+    font-size: 4.8rem;
+    /* align-items: center; */
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    margin-left: 30%;
+  }
+  
+  .insta , .linkedin , .Medium{
+    padding: 2rem;
+  }
+  
+  .copyright p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .container {
+    height: 60rem;
+  }
+  #navbar ul li {
+    margin: 0rem 0.1rem;
+  }
+  
+  #navbar ul li a {
+    font-size: 1.6rem;
+    padding: 0.5rem 1.5rem;
+  }
+  .Title {
+    /* text-align: center; */
+    font-size: 7.2rem;
+    /* font-family: "Oregano", cursive; */
+    margin-top: 3rem;
+  }
+  
+  .Subtitle {
+    /* text-align: center; */
+    font-size: 3.2rem;
+  }
+  
+  .line {
+    height: 0.5rem;
+    /* width: 50%; */
+    /* margin-left: 25%; */
+  }
+  .Blog-Title , .about-Title , .contact-Title {
+    /* text-align: center; */
+    font-size: 4.8rem;
+    /* font-family: "Oregano", cursive; */
+    /* padding-top: 5rem; */
+  }
+  .data img{
+    height: 25rem;
+    width: 25rem;
+    /* padding-top: 2rem; */
+    /* align-items: center; */
+    margin-left: auto;
+  margin-right: auto;
+  }
+  .data-content{
+    font-size: 2rem;
+  }
+  .contact-social{
+    /* font-size: 3.2rem; */
+    /* align-items: center; */
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    margin-left: 20%;
+  }
+  
+  .insta , .linkedin , .Medium{
+    padding: 2rem;
+  }
+  
+  .copyright p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}  
+
+
